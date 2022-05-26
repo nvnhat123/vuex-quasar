@@ -2,7 +2,8 @@
   <q-item
     clickable
     tag="a"
-    :to="{name: link}"
+    target="_blank"
+    :href="link"
   >
     <q-item-section
       v-if="icon"
@@ -21,7 +22,9 @@
 </template>
 
 <script>
-export default {
+import { defineComponent } from 'vue'
+
+export default defineComponent({
   name: 'EssentialLink',
   props: {
     title: {
@@ -44,5 +47,5 @@ export default {
       default: ''
     }
   }
-}
+})
 </script>

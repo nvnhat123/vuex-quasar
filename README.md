@@ -1,11 +1,9 @@
-# Quasar App (quasar-project)
+# Quasar App (awesome-todo)
 
-A Quasar Project
+A Quasar Framework app
 
 ## Install the dependencies
 ```bash
-yarn
-# or
 npm install
 ```
 
@@ -14,18 +12,10 @@ npm install
 quasar dev
 ```
 
-
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
 ### Build the app for production
 ```bash
 quasar build
 ```
 
 ### Customize the configuration
-See [Configuring quasar.conf.js](https://v1.quasar.dev/quasar-cli/quasar-conf-js).
+See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
